@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-mobile-ocr-scp",
-  "version": "3.1.2",
+  "version": "3.1.3",
   "repository": {
     "type": "git",
     "url": "https://github.com/MLDOliveira/cordova-plugin-mobile-ocr-scp"
