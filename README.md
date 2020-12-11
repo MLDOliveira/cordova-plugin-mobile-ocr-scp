@@ -1,1 +1,1 @@
-# cordova-plugin-mobile-ocr-scp
+Copied from https://github.com/NeutrinosPlatform/cordova-plugin-mobile-ocr and adapted for SAP Cloud Platform
