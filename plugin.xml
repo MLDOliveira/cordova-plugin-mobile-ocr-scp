@@ -2,7 +2,7 @@
 <plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
         xmlns:android="http://schemas.android.com/apk/res/android"
         id="cordova-plugin-mobile-ocr-scp"
-        version="3.2.6">
+        version="3.2.8">
 
   <name>Textocr</name>
 
@@ -16,7 +16,6 @@
   <js-module src="www/rectext.js" name="rectext">
     <clobbers target="textocr" />
   </js-module>
-
 
   <dependency id="cordova-plugin-cocoapod-support" />
 
@@ -43,7 +42,9 @@
 
 
   <platform name="ios">
-  <preference name="PODS_USE_FRAMEWORKS" value="true"/>
+  <pods-config ios-min-version="9.0" use-frameworks="true">
+  
+  </pods-config>
   <config-file target="config.xml" parent="/*">
     <feature name="Textocr">
       <param name="ios-package" value="Textocr" />
