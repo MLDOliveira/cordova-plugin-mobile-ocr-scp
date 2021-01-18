@@ -2,7 +2,7 @@
 <plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
         xmlns:android="http://schemas.android.com/apk/res/android"
         id="cordova-plugin-mobile-ocr-scp"
-        version="3.3.1">
+        version="3.3.2">
 
   <name>Textocr</name>
 
@@ -17,7 +17,7 @@
     <clobbers target="textocr" />
   </js-module>
 
-  <dependency id="cordova-plugin-cocoapod-support" />
+  <!--<dependency id="cordova-plugin-cocoapod-support" />-->
 
   <platform name="android">
 
