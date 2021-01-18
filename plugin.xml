@@ -2,7 +2,7 @@
 <plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
         xmlns:android="http://schemas.android.com/apk/res/android"
         id="cordova-plugin-mobile-ocr-scp"
-        version="3.3.0">
+        version="3.3.1">
 
   <name>Textocr</name>
 
@@ -42,9 +42,6 @@
 
 
   <platform name="ios">
-    <pods-config ios-min-version="9.0" use-frameworks="true">
-    
-    </pods-config>
     <pod name="GoogleMobileVision/TextDetector" version="1.3.2" />
   <config-file target="config.xml" parent="/*">
     <feature name="Textocr">
